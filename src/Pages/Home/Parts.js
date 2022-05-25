@@ -11,31 +11,31 @@ const Parts = () => {
             img: chain
         },
         {
-            _id: 1,
+            _id: 2,
             name: 'Bulk Chain',
             description: '"CN-HG71 SHIMANO ACERA-8-speed-HYPERGLIDE-MTB chain SHIMANO HG71 chain is specially designed for precise HYPERDRIVE SIS and DUAL SIS INDEX variable speed, and can also be used for E-BIKE. HG chain, precise HYPERDRIVE SIS/DUAL SIS (dual SIS) variable speed',
             img: chain
         },
         {
-            _id: 1,
+            _id: 3,
             name: 'Bulk Chain',
             description: '"CN-HG71 SHIMANO ACERA-8-speed-HYPERGLIDE-MTB chain SHIMANO HG71 chain is specially designed for precise HYPERDRIVE SIS and DUAL SIS INDEX variable speed, and can also be used for E-BIKE. HG chain, precise HYPERDRIVE SIS/DUAL SIS (dual SIS) variable speed',
             img: chain
         },
         {
-            _id: 1,
+            _id: 4,
             name: 'Bulk Chain',
             description: '"CN-HG71 SHIMANO ACERA-8-speed-HYPERGLIDE-MTB chain SHIMANO HG71 chain is specially designed for precise HYPERDRIVE SIS and DUAL SIS INDEX variable speed, and can also be used for E-BIKE. HG chain, precise HYPERDRIVE SIS/DUAL SIS (dual SIS) variable speed',
             img: chain
         },
         {
-            _id: 1,
+            _id: 5,
             name: 'Bulk Chain',
             description: '"CN-HG71 SHIMANO ACERA-8-speed-HYPERGLIDE-MTB chain SHIMANO HG71 chain is specially designed for precise HYPERDRIVE SIS and DUAL SIS INDEX variable speed, and can also be used for E-BIKE. HG chain, precise HYPERDRIVE SIS/DUAL SIS (dual SIS) variable speed',
             img: chain
         },
         {
-            _id: 1,
+            _id: 6,
             name: 'Bulk Chain',
             description: '"CN-HG71 SHIMANO ACERA-8-speed-HYPERGLIDE-MTB chain SHIMANO HG71 chain is specially designed for precise HYPERDRIVE SIS and DUAL SIS INDEX variable speed, and can also be used for E-BIKE. HG chain, precise HYPERDRIVE SIS/DUAL SIS (dual SIS) variable speed',
             img: chain
