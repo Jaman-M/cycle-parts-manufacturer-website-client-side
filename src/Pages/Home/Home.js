@@ -1,4 +1,5 @@
 import React from 'react';
+import OurAddress from '../OurAddress';
 import PurchaseItems from '../Purchase/PurchaseItems';
 import Banner from './Banner';
 import BusinessSummary from './BusinessSummary';
@@ -15,6 +16,7 @@ const Home = () => {
             {/* <OurItems></OurItems> */}
             <PurchaseItems></PurchaseItems>
             <BusinessSummary></BusinessSummary>
+            <OurAddress></OurAddress>
             <Contact></Contact>
             <Footer></Footer>
             

@@ -25,7 +25,14 @@ const MyPortfolio = () => {
                 <li>Express js</li>
                 <li>MongDB</li>
                 <li>firebase</li>
-            </p>
+            </p> <br />
+            <h2 className='text-xl font-bold'>My Projects</h2>
+            {/* <button class="btn btn-outline btn-primary" href="https://www.google.com/">go</button> */}
+            <button className='btn btn-primary btn-outline '><a href="https://peppy-rugelach-c9d844.netlify.app/">Project-1: Guitar Bazar</a></button>
+            <button className='btn btn-primary btn-outline '><a href="https://dentist-bro.web.app/">Project-2: Dentist Bro</a></button>
+            <button className='btn btn-primary btn-outline '><a href="https://doctors-portal-c04e4.web.app/">Project-3: Doctors werbsite</a></button>
+
+            
         </div>
     );
 };
