@@ -10,8 +10,12 @@ const PurchaseItems = () => {
         .then(data => setParts(data))
     },[])
     return (
-        <div>
-            <h2>items: {parts.length}</h2>
+        <div className='mb-5'>
+            <h2 className='text-2xl font-bold text-primary text-center my-12'>Our Items</h2>
+            {/* <h2>items: {parts.length}</h2> */}
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
+            
+            
             
             {
                 parts.map(part =>(
@@ -26,6 +30,9 @@ const PurchaseItems = () => {
 
 
         </div>
+
+        </div>
+        
     );
 };
 
