@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Footer from '../Home/Footer';
 import Part from '../Home/Part';
 import Parts from '../Home/Parts';
 
@@ -33,7 +34,9 @@ const PurchaseItems = () => {
 
         </div>
         
+        
     );
+    
 };
 
 export default PurchaseItems;

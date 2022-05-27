@@ -16,8 +16,9 @@ const Navbar = () => {
         <li><Link to="/">Home</Link></li>
         {/* <li><Link to="/parts">Parts</Link></li> */}
         <li><Link to="/purchaseitems">Purchase Items</Link></li>
-        <li><Link to="/reviews">Reviews</Link></li>
-        <li><Link to="/about">About</Link></li>
+        {/* <li><Link to="/reviews">Reviews</Link></li> */}
+        <li><Link to="/blogs">Blogs</Link></li>
+        <li><Link to="/myportfolio">Portfolio</Link></li>
         {
             user && <li><Link to="/dashboard">Dashboard</Link></li>
         }

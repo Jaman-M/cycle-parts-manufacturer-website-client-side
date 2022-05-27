@@ -7,7 +7,7 @@ const Part = ({ part }) => {
     <div className='mb-10'>
       {/* <h1>{name}</h1>
         <img src={img} alt="" /> */}
-      <div class="card lg:mx-w-lg w-96 bg-base-100 shadow-xl">
+      <div class="card lg:mx-w-lg bg-base-100 shadow-xl">
         <figure><img src={img} alt="Shoes" /></figure>
         <div class="card-body text-center">
         <h2 className="text-xl font-bold text-primary">{name}</h2>

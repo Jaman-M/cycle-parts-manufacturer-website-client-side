@@ -10,6 +10,9 @@ import RequireAuth from './Pages/Login/RequireAuth';
 import Dashboard from './Pages/Dashboard/Dashboard';
 import MyOrders from './Pages/Dashboard/MyOrders';
 import Review from './Pages/Dashboard/Review';
+import Blogs from './Pages/Dashboard/Blogs';
+import NotFound from './Pages/Shared/NotFound/NotFound';
+import MyPortfolio from './Pages/MyPortfolio';
 
 function App() {
   return (
@@ -17,7 +20,7 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
-        <Route path='about' element={<About></About>}></Route>
+        {/* <Route path='about' element={<About></About>}></Route> */}
         <Route path='purchaseitems' element={
           <RequireAuth>
             <PurchaseItems></PurchaseItems>
@@ -29,10 +32,13 @@ function App() {
           </RequireAuth>
         }>
           <Route index element={<MyOrders></MyOrders>}></Route>
-          <Route path='review' element={<Review></Review>}></Route>
+          {/* <Route path='review' element={<Review></Review>}></Route> */}
         </Route>
+        <Route path='blogs' element={<Blogs></Blogs>}></Route>
+        <Route path='/myportfolio' element={<MyPortfolio></MyPortfolio>}></Route>
         <Route path='login' element={<Login></Login>}></Route>
         <Route path='signup' element={<SignUp></SignUp>}></Route>
+        <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
     </div>
   );
