@@ -9,7 +9,7 @@ const MyPortfolio = () => {
             <ul class="steps steps-vertical">
                 <li class="step step-primary">SSC</li>
                 <li class="step step-primary">HSC</li>
-                <li class="step">BSC in Computer Science & Technology (4th year)</li>
+                <li class="step"> styding BSC in Computer Science & Technology (4th year)</li>
                 <br />
             </ul>
             <h2 className='text-xl font-bold'>Skills as a Web Developer</h2>

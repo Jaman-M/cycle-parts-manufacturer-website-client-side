@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Part = ({ part }) => {
+const Part = ({ part, setItem }) => {
   const { name, img, description, price, Available, minOrder } = part;
   return (
     <div className='mb-10'>
@@ -16,7 +16,13 @@ const Part = ({ part }) => {
           <p>Total Available: {Available}</p>
           <p>Minimum Order: {minOrder} pieces</p>
           <div class="card-actions justify-end">
-            <button class="btn btn-primary">Buy Now</button>
+            {/* <button 
+            onClick={()=> setItem(part)}
+            class="btn btn-primary">Buy Now</button> */}
+
+            <label for="purchase-modal" 
+            onClick={()=> setItem(part)}
+            class="btn btn-primary">Buy Now</label>
           </div>
         </div>
       </div>
