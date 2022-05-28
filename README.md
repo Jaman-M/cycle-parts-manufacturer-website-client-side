@@ -1,6 +1,6 @@
 # Cycle-Parts
 
-live site: [Cycle-Parts](https://*********.web.app/).
+live site: [Cycle-Parts](https://cycle-parts-4a119.web.app).
 
 ## About this webSite
 - This is a cycle parts manufacturer website
@@ -13,4 +13,4 @@ live site: [Cycle-Parts](https://*********.web.app/).
 
 ### `live site:` 
 
-live site link: [https://****.web.app/)
+live site link: [(https://cycle-parts-4a119.web.app)]
