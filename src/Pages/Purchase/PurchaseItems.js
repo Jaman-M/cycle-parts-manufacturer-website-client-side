@@ -10,7 +10,7 @@ const PurchaseItems = () => {
 
 
     useEffect(()=>{
-        fetch('https://radiant-gorge-80765.herokuapp.com/parts')
+        fetch('http://localhost:5000/parts')
         .then(res => res.json())
         .then(data => setParts(data))
     },[])
