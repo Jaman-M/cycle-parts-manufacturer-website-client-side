@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import useParts from '../../Hooks/useParts.js/useParts';
+import useParts from '../../Hooks/useParts';
 import AllParts from './AllParts';
 
 
