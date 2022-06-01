@@ -4,19 +4,19 @@ import Loading from '../Shared/Loading';
 import UserRow from './UserRow';
 
 const AllUsers = () => {
-//     const { data: users, isLoading, refetch } = useQuery('users', () => fetch('http://localhost:5000/user'
+    const { data: users, isLoading, refetch } = useQuery('users', () => fetch('http://localhost:5000/user'
         
     
-// ).then(res => res.json()));
-// console.log(users)
-// if (isLoading) {
-//     return <Loading></Loading>
-// }
+).then(res => res.json()));
+console.log(users)
+if (isLoading) {
+    return <Loading></Loading>
+}
 return (
     <div>
-        <h1 className='text-2xl'>All User: </h1>
+        <h1 className='text-2xl'>All User: {users?.length}</h1>
 
-        {/* <div class="overflow-x-auto w-full">
+        <div class="overflow-x-auto w-full">
             <table class="table w-full">
                 <thead>
                     <tr>
@@ -38,7 +38,7 @@ return (
                     }
                 </tbody>
             </table>
-        </div> */}
+        </div>
     </div>
 );
 };

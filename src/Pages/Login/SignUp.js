@@ -22,7 +22,7 @@ const SignUp = () => {
       // for update profile
       const [updateProfile, updating, UpdateError] = useUpdateProfile(auth);
 
-      const [token] = useToken( user || gUser)
+      const [token] = useToken( user || gUser);
 
       const navigate = useNavigate();
 
@@ -37,8 +37,9 @@ const SignUp = () => {
         signInError= <p className='text-red-500'>{error?.message || gError?.message ||UpdateError?.message}</p>
     }
 
-    if (user || gUser) {
-        console.log(user || gUser);
+    if (token) {
+        // console.log(user || gUser);
+        navigate('purchaseitems')
     }
 
     const onSubmit = async data => {
